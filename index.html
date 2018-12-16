@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
         <link rel="stylesheet" href="main.css">
     </head>
-    <body>
+    <body onresize="closeNav()">
 
                   
         <nav>
@@ -29,11 +29,11 @@
 
         <div id="mySidenav" class="sidenav">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fas fa-times"></i></a>
-                <a href="#about">About</a>
-                <a href="#constitution">Constitution</a>
-                <a href="#membership">Membership</a>
-                <a href="#contact">Contact</a>
-                <a href="#links">Links</a>
+                <a href="#about" onclick="closeNav()">About</a>
+                <a href="#constitution" onclick="closeNav()">Constitution</a>
+                <a href="#membership" onclick="closeNav()">Membership</a>
+                <a href="#contact" onclick="closeNav()">Contact</a>
+                <a href="#links" onclick="closeNav()">Links</a>
         </div>
 
         <header>
