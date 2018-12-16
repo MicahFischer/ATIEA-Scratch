@@ -222,8 +222,8 @@ section a {
 }
 
 section a i {
-    font-size: calc(24px + 1vw);
-    padding: 3px 12px;
+    font-size: calc(16px + 1vw);
+    padding: 2px 12px;
     float: right;
 }
 
