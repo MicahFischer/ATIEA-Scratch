@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
-a {
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-}
+
 
 html {
     scroll-behavior: smooth;
@@ -220,6 +216,9 @@ section a {
     display: block;
     width: 80%;
     word-break: break-all;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }
 
 section a i {
@@ -279,6 +278,9 @@ footer a {
     text-decoration: none;
     background: white;
     padding: 6px 12px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }
 
 
@@ -290,6 +292,9 @@ footer a {
         display: block;
         font-size: calc(24px + 1vw);
         width: 80%;
+        box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     }
     section main a {
         width: 100%;
@@ -298,6 +303,9 @@ footer a {
         display: block;
         font-size: calc(24px + 1vw);
         width: 100%;
+        box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     }
     i {
         font-size: calc(46px + .8vw);
