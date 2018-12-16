@@ -62,6 +62,7 @@ nav div {
 
 header {
     background: url("header.jpg");
+    background-attachment: scroll;
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
@@ -80,13 +81,16 @@ header div:nth-of-type(2) {
 
 header:nth-of-type(2) {
     background: url("constitution.jpg");
+    background-attachment: scroll;
     background-attachment: fixed;
+    background-attachment: scroll;
     background-size: cover;
     background-position: center center;
 }
 
 header:nth-of-type(3) {
     background: url("members.jpg");
+    background-attachment: scroll;
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
@@ -94,6 +98,7 @@ header:nth-of-type(3) {
 
 header:nth-of-type(4) {
     background: url("contact.jpg");
+    background-attachment: scroll;
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
@@ -101,6 +106,7 @@ header:nth-of-type(4) {
 
 header:nth-of-type(5) {
     background: url("links.jpg");
+    background-attachment: scroll;
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
