@@ -31,30 +31,11 @@ nav a {
     outline: 0 solid black;
 }
 
-nav a:nth-of-type(1):hover {
-    background: rgb(16, 108, 144);
+nav a:hover {
+    background: black;
     color: white;
 }
 
-nav a:nth-of-type(2):hover {
-    background: rgb(75, 8, 55);
-    color: white;
-}
-
-nav a:nth-of-type(3):hover {
-    background: rgb(182, 28, 8);
-    color: white;
-}
-
-nav a:nth-of-type(4):hover {
-    background: rgb(56, 98, 17);
-    color: white;
-}
-
-nav a:nth-of-type(5):hover {
-    background: rgb(105, 19, 41);
-    color: white;
-}
 
 nav h1 {
     background: black;
@@ -229,10 +210,16 @@ section a {
     margin: 12px 0;
     text-decoration: none;
     background: black;
-    padding: 0 6px;
+    padding: 6px 12px;
     display: block;
     width: 80%;
     word-break: break-all;
+}
+
+section a i {
+    font-size: calc(24px + 1vw);
+    padding: 3px 12px;
+    float: right;
 }
 
 #download {
@@ -285,11 +272,14 @@ footer a {
     margin: 12px auto;
     text-decoration: none;
     background: white;
-    padding: 0 6px;
+    padding: 6px 12px;
 }
 
 
 @media only screen and (max-width: 1000px) {
+    header, header:nth-of-type(2), header:nth-of-type(3), header:nth-of-type(4), header:nth-of-type(5) {
+        background-attachment: scroll;
+    }
     section a {
         display: block;
         font-size: calc(24px + 1vw);
