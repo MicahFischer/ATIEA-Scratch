@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav a {
+    background: white;
+    color: black;
+    font-family: bebas-kai, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: calc(24px + 1vw);
+    text-align: center;
+    padding: 32px 0;
+    text-decoration: none;
+    outline-offset: 0;
+    outline: 0 solid black;
+}
+
+nav a:nth-of-type(1):hover {
+    background: rgb(16, 108, 144);
+    color: white;
+}
+
+nav a:nth-of-type(2):hover {
+    background: rgb(75, 8, 55);
+    color: white;
+}
+
+nav a:nth-of-type(3):hover {
+    background: rgb(182, 28, 8);
+    color: white;
+}
+
+nav a:nth-of-type(4):hover {
+    background: rgb(56, 98, 17);
+    color: white;
+}
+
+nav a:nth-of-type(5):hover {
+    background: rgb(105, 19, 41);
+    color: white;
+}
+
+nav h1 {
+    background: black;
+    color: white;
+    font-family: bebas-kai, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: calc(48px + 1vw);
+    text-align: center;
+    padding: 16px 0;
+    text-decoration: none;
+    margin: 0;
+}
+
+#mobile {
+    display: none;
+}
+
+nav div {
+    display: none;
+}
+
+header {
+    background: url("header.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 800px;
+    filter: grayscale(100%) contrast(125%);
+}
+
+header div:nth-of-type(2) {
+    border: 24px white solid;
+    padding: 48px 0;
+    margin: 0 16%;
+}
+
+
+header:nth-of-type(2) {
+    background: url("constitution.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+header:nth-of-type(3) {
+    background: url("members.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+header:nth-of-type(4) {
+    background: url("contact.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+header:nth-of-type(5) {
+    background: url("links.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+header h1 {
+    font-size: calc(128px + 8vw);
+    font-family: bebas-kai, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    margin: 0;
+
+}
+
+header h2 {
+    font-size: calc(32px + 2vw);
+    font-family: bebas-kai, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+section {
+    background: rgb(16, 108, 144);
+    padding: 6vw 0;
+}
+
+section:nth-of-type(2) {
+    background: rgb(75, 8, 55);
+    padding: 6vw 0;
+}
+
+section:nth-of-type(3) {
+    background: rgb(182, 28, 8);
+    padding: 6vw 0;
+}
+
+section:nth-of-type(4) {
+    background: rgb(56, 98, 17);
+    padding: 6vw 0;
+}
+
+section:nth-of-type(5) {
+    background: rgb(105, 19, 41);
+    padding: 6vw 0;
+}
+
+section:nth-of-type(4) main {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+section:nth-of-type(5) main {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+
+section main h1, section main h2, section main p {
+    width: 100%;
+}
+
+section h1 {
+    font-size: calc(32px + 2vw);
+    font-family: bebas-kai, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    column-span: all;
+}
+
+section h2 {
+    font-size: calc(24px + 1.5vw);
+    font-family: bebas-kai, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+}
+
+section p {
+    font-size: calc(16px + 1vw);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+}
+
+section a {
+    font-size: calc(24px + 1vw);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    margin: 12px 0;
+    text-decoration: none;
+    background: black;
+    padding: 0 6px;
+    display: block;
+    width: 80%;
+    word-break: break-all;
+}
+
+#download {
+    margin: 12px auto;
+}
+
+footer {
+    background: black;
+    padding: 6vw 0;
+}
+
+footer h1 {
+    font-size: calc(32px + 2vw);
+    font-family: bebas-kai, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    column-span: all;
+}
+
+footer h2 {
+    font-size: calc(24px + 1.5vw);
+    font-family: bebas-kai, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer p {
+    font-size: calc(16px + 1vw);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer a {
+    font-size: calc(24px + 1vw);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    width: 80%;
+    margin: 12px auto;
+    text-decoration: none;
+    background: white;
+    padding: 0 6px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    section a {
+        display: block;
+        font-size: calc(24px + 1vw);
+        width: 80%;
+    }
+    section main a {
+        width: 100%;
+    }
+    footer a {
+        display: block;
+        font-size: calc(24px + 1vw);
+        width: 100%;
+    }
+    i {
+        font-size: calc(46px + .8vw);
+    }
+    section:nth-of-type(4) main {
+        grid-template-columns: 1fr;
+    }
+    
+    section:nth-of-type(5) main {
+        grid-template-columns: 1fr;
+    }
+
+    header div:nth-of-type(2) {
+        border: 12px white solid;
+        padding: 24px 0;
+        margin: 0 8%;
+    }
+    nav {
+        grid-template-columns: 1fr 1fr;
+    }
+    nav a, nav h1 {
+        display: none;
+    }
+    nav div {
+        display: block;
+        background: black;
+    }
+    #mobile {
+        display: block;
+        background: white;
+        color: black;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    header div:nth-of-type(2) {
+        border: 12px white solid;
+        padding: 0;
+        margin: 0 8%;
+    }
+
+    header h1 {
+        font-size: calc(96px + 6vw);
+    }
+}
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: black; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    z-index: 100;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    background: black;
+    color: white;
+    font-family: bebas-kai, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: calc(48px + 1vw);
+    display: block;
+  }
+  
+  .sidenav a:nth-of-type(2) {
+      margin-top: 38px;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    background: white;
+    color: black;
+    z-index: 300;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: calc(48px + 1vw);
+    padding: 16px 32px;
+    background: transparent;
+  }
+
+  .closebtn:hover {
+      background: transparent;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
