@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
-
-
 html {
     scroll-behavior: smooth;
 }
@@ -83,7 +81,6 @@ header:nth-of-type(2) {
     background: url("constitution.jpg");
     background-attachment: scroll;
     background-attachment: fixed;
-    background-attachment: scroll;
     background-size: cover;
     background-position: center center;
 }
@@ -291,6 +288,9 @@ footer a {
 
 
 @media only screen and (max-width: 1000px) {
+    header:nth-of-type(1), header:nth-of-type(2), header:nth-of-type(3), header:nth-of-type(4), header:nth-of-type(5) {
+        background-attachment: scroll;
+    }
     section a {
         display: block;
         font-size: calc(16px + 1vw);
